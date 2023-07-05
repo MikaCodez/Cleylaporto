@@ -1154,11 +1154,18 @@ header.sticky #navbar ul.menu-list > li > a {
   line-height: var(--header-height-min);
 }
 
+
 @media screen and (max-width: 992px){
   nav#navbar ul.menu-list {
     display: none;
   }
 }
+
+.logo-img {
+  width: 380px;
+  position: absolute;
+  right: 29%;
+  top: -350px; }
 
 /* - Search Form hover Effects
 ------------------------------------------------------------- */
