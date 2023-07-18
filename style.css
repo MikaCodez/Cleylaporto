@@ -1570,7 +1570,7 @@ body.nav-active .nav__list-item:nth-child(10) {
   margin-top: 300px;
 }
 .main-slider .banner-content h2.banner-title {
-  font-family: var(--heading-font);
+  font-family: "Roboto", sans-serif;;
   font-size: 5.5em;
   font-weight: 900;
   color: #fff;
