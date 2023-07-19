@@ -1716,6 +1716,25 @@ body.nav-active .nav__list-item:nth-child(10) {
   }
 }
 
+/*----- Portfolio Section
+--------------------------------------------------------------*/
+.lightbox-item {
+  position: relative;
+  width: relative; /* Adjust to match your image dimensions */
+}
+.hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 360px; /* Adjust to your desired width */
+  height: auto;
+  transition: opacity 0.5s ease;
+}
+.lightbox-item:hover .hover-image {
+  opacity: 8;
+}
+
 /*----- Subscribe Section
 --------------------------------------------------------------*/
 #subscribe figure.subscribe-image {
