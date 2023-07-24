@@ -1578,6 +1578,10 @@ body.nav-active .nav__list-item:nth-child(10) {
   color: #fff;
   text-transform: uppercase;
 
+.direction {
+  color: #07051a;
+}
+
 }
 #intro .button-container {
   display: flex;
