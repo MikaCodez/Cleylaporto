@@ -24,48 +24,39 @@
 
 <body>
 
-<header id="header" class="onepage-menu fixed">
-	<div id="header-wrap">
-		<!-- <nav id="navbar">
-			<div class="main-logo">
-				<a href="index.html">A.</a>
-			</div> -->
+<div class="nav nav-overlay">
+	<div class="nav__content">
+		<ul class="nav__list">
+			<li class="nav__list-item"><a href="index.html" class="hover-target">Home</a></li>
+			<li class="nav__list-item"><a href="portfolio.html" class="hover-target">Portfolio</a></li>
+			<li class="nav__list-item active-nav"><a href="about.html" class="hover-target">About</a></li>
+			<li class="nav__list-item"><a href="contact.html" class="hover-target">Contact us</a></li>
+		</ul>
+	</div>
+</div>
 
-			<div class="main-menu" id="navigation">
-				<ul class="menu-list scrollspy-nav navbar-nav list-inline">
-					<li class="scrollspy-link"><a href="#intro" data-target="intro" class="nav-link smoothscroll">Home</a></li>
-					<li class="scrollspy-link"><a href="#about" data-target="about" class="nav-link smoothscroll">About</a></li>
-					<li class="scrollspy-link"><a href="#portfolio" data-target="portfolio" class="nav-link smoothscroll">Portfolio</a></li>
-					<li class="scrollspy-link"><a href="#services" data-target="services" class="nav-link smoothscroll">Services</a></li>
-					<li class="scrollspy-link"><a href="#contact" data-target="contact" class="nav-link smoothscroll">Contact</a></li>
-					<li class="scrollspy-link"><a href="#testimonial" data-target="testimonial" class="nav-link smoothscroll">Testimonials</a></li>
-					<li class="scrollspy-link nav-item dropdown">
-						<a href="#" data-bs-toggle="dropdown" aria-expanded="false" class="nav-link dropdown-toggle">Pages</a>
-						<ul class="dropdown-menu">
-							<li><a href="styles.html" class="dropdown-item">Styles</a></li>
-							<li><a href="blog.html" class="dropdown-item">Blog</a></li>
-							<li><a href="single-post.html" class="dropdown-item">Single Post</a></li>
-							<li><a href="contact.html" class="dropdown-item">Contact us</a></li>
-						</ul>
-					</li>
-					<span class="scrollspy-indicator"></span>
-				</ul>
-			</div>
-		</nav>
+<header id="header">
+<!-- <div id="header-wrap">
+	<nav id="navbar">
+		<div class="main-logo">
+			<a href="index.html" class="logo_img"><img src="images/icons/cleiconwhite.png" alt=""></a>
+			</a>
+		</div>
+	</nav> -->
 
-		<div class="action-menu">
-			<div class="search-bar">
-				<a href="#" class="search-button search-toggle" data-selector="#header-wrap">
-					<i class="icon icon-search"></i>
-				</a>
-				<form role="search" method="get" class="search-box">
-					<input class="search-field text search-input" placeholder="Search" type="search">
-				</form>
-			</div>
+	<div class="action-menu">
 
-		</div><!--action-menu-->
+		<div class="side-nav-bar">
+		  <input id="menu-toggle" type="checkbox" />
+			<label class="menu-btn" for="menu-toggle">
+			<span></span>
+		   </label>
+		</div>
+		<!--sidenavbar-->
 
-	</div><!--header-wrap-->
+	</div><!--action-menu-->
+
+</div><!--header-wrap-->
 </header>
 
 <section id="intro" class="scrollspy-section">
@@ -75,7 +66,7 @@
 			<div class="banner-content">
 				<h2 class="banner-title">#WHOIS2PP? Campaign</h2>
 				<div class="btn-wrap">
-					<a href="#portfolio" class="btn-with-line">View Project</a>
+					<a href="#portfolio" class="btn">View Project</a>
 				</div>
 			</div><!--banner-content--> 
 		</div><!--slider-item-->
@@ -85,7 +76,7 @@
 			<div class="banner-content">
 				<h2 class="banner-title">#WHOIS2PP? Campaign</h2>
 				<div class="btn-wrap">
-					<a href="#portfolio" class="btn-with-line">View Project</a>
+					<a href="#portfolio" class="btn">View Project</a>
 				</div>
 			</div><!--banner-content--> 
 		</div><!--slider-item-->
@@ -132,7 +123,6 @@
 				<p><strong>Industry: Graphic Design</strong></p>
 				<br>
 				<p><strong>Objective:</strong></p>
-				<br>
 				<p>The objective of the #WHOIS2PP Campaign was to showcase the diverse, eccentric, and exciting community of creatives at 2pp Creative Agency. The campaign aimed to humanise the agency and build trust by revealing the personalities, creativity, and authenticity of the team members. It sought to emphasise the importance of personal connections and co-creation in the design process.</p>
 				<p><strong>Challenges:</strong></p>
 				<ul>
@@ -140,7 +130,7 @@
 					<li>Balancing individuality and unity: Highlight unique attributes of each team member while maintaining a cohesive visual identity.</li>
 					<li>Communicating the value of co-creation: Convey the agency's commitment to collaboration and its impact on design outcomes.</li>
 					</ul>
-					Execution:
+					<strong>Execution:</strong>
 					
 					<ul>
 					<li>Concept Development: Shape-shifting forms symbolize the agency's commitment to change and growth.</li>
@@ -149,7 +139,7 @@
 					<li>Engagement and Interaction: Encourage audience participation, fostering qualitative conversations.</li>
 					<li>Hashtag and Branding: Unify the campaign with hashtags #WHOIS2PP, #DesigningTogether, and #2pppeople.</li>
 					</ul>
-					Results:
+					<strong>Results:</strong>
 					
 					<ul>
 					<li>Enhanced Brand Perception: Showcase the agency's diverse and creative community, emphasizing authenticity and human connections.</li>
@@ -256,25 +246,12 @@
 		<div class="row">
 			
 			<div class="col-md-3">
-				
-				<div class="footer-menu menu-item-01">
-					<img src="images/logo.png" alt="logo" class="footer-logo">
-					<p>Tristique lacus ullamcorper massa posuere nisl molestie. Nullam motes, tortor masa. Nisl tellus etiam.</p>
-					<div class="social-links">
-						<ul>
-							<li>
-								<a href="#"><i class="icon icon-facebook"></i></a>
-							</li>
-							<li>
-								<a href="#"><i class="icon icon-twitter"></i></a>
-							</li>
-							<li>
-								<a href="#"><i class="icon icon-youtube-play"></i></a>
-							</li>
-							<li>
-								<a href="#"><i class="icon icon-behance-square"></i></a>
-							</li>
-						</ul>
+				<div class="footer-menu">
+					<img src="images/CleliamenteLogo1 RED.png" alt="logo" class="footer-logo">
+					<div class="social-icons d-flex justify-content-xl-end mt-3 mt-xl-0">
+						<a class="nav-link py-1 px-0" href="https://www.instagram.com/cleliamente/" target="_blank"><img src="./icomoon/403-instagram.svg" alt=""></a>
+						<a class="nav-link py-1 px-0" href="https://www.linkedin.com/in/cleliagiannuoli/" target="_blank"><img src="./icomoon/458-linkedin.svg" alt=""></a>
+						<a class="nav-link py-1 px-0" href="https://www.behance.net/cleliagiannuoli" target="_blank"><img src="./icomoon/behance.svg" alt=""></a>
 					</div>
 				</div>
 
@@ -282,26 +259,26 @@
 
 			<div class="col-md-2">
 
-				<div class="footer-menu menu-item-02">
-					<h5>quick links</h5>
+				<div class="footer-menu">
+					<h5>Quick links</h5>
 					<ul class="menu-list">
 						<li class="menu-item">
-							<a href="#">home</a>
+							<a href="#">Home</a>
 						</li>
 						<li class="menu-item">
-							<a href="#">about us </a>
+							<a href="#">About us </a>
 						</li>
 						<li class="menu-item">
-							<a href="#">services</a>
+							<a href="#">Services</a>
 						</li>
 						<li class="menu-item">
-							<a href="#">portfolios</a>
+							<a href="#">Portfolios</a>
 						</li>
 						<li class="menu-item">
-							<a href="#">blogs</a>
+							<a href="#">Blogs</a>
 						</li>
 						<li class="menu-item">
-							<a href="#">contact us</a>
+							<a href="#">Contact us</a>
 						</li>
 					</ul>
 				</div>
@@ -310,20 +287,20 @@
 
 			<div class="col-md-4">
 
-				<div class="footer-menu menu-item-03">
-					<h5>contact info</h5>
+				<div class="footer-menu widget-contact-info">
+					<h5>Contact info</h5>
 					<ul class="menu-list">
 						<li class="menu-item">
-							<i class="icon icon-location"></i>2489  Locust Court, Los Angeles
+							<i class="icon icon-location"></i>Bari
 						</li>
 						<li class="menu-item">
-							<i class="icon icon-location2"></i>3927 Red Maple Drive, Los Angeles
+							<i class="icon icon-location2"></i>Puglia, Italy
 						</li>
 						<li class="menu-item">
-							<i class="icon icon-phone"></i>+63 667 341 3463
+							<i class="icon icon-phone"></i>+39 377 0807256
 						</li>
 						<li class="menu-item">
-							<i class="icon icon-envelope-o"></i><a href="#" class="mail-id">contact@example.com</a>
+							<i class="icon icon-envelope-o"></i><a href="#" class="mail-id">cleliamente@gmail.com</a>
 						</li>
 					</ul>
 				</div>
@@ -331,20 +308,6 @@
 			</div>
 
 			<div class="col-md-3">
-
-				<div class="footer-menu menu-item-04">
-					<h5>Gallery</h5>
-					<div class="widget-gallery">
-						<a href="images/spacejoy.jpg" data-lightbox-gallery="gallery1" title="Calm Before The Storm (One Shoe Photography Ltd.)" class="image-link"><img src="images/tab1.jpg" alt="house" class="gallery-image"></a>			
-						<a href="images/interior.jpg" data-lightbox-gallery="gallery1" title="Grasmere Lake (Phil 'the link' Whittaker (gizto29))" class="image-link"><img src="images/tab2.jpg" alt="house" class="gallery-image"></a>			
-						<a href="images/interior.jpg" data-lightbox-gallery="gallery1" title="Grasmere Lake (Phil 'the link' Whittaker (gizto29))" class="image-link"><img src="images/tab3.jpg" alt="house" class="gallery-image"></a>			
-						<a href="images/interior.jpg" data-lightbox-gallery="gallery1" title="Grasmere Lake (Phil 'the link' Whittaker (gizto29))" class="image-link"><img src="images/postimg1.jpg" alt="house" class="gallery-image"></a>
-						<a href="images/interior.jpg" data-lightbox-gallery="gallery1" title="Grasmere Lake (Phil 'the link' Whittaker (gizto29))" class="image-link"><img src="images/postimg2.jpg" alt="house" class="gallery-image"></a>
-						<a href="images/interior.jpg" data-lightbox-gallery="gallery1" title="Grasmere Lake (Phil 'the link' Whittaker (gizto29))" class="image-link"><img src="images/postimg3.jpg" alt="house" class="gallery-image"></a>
-					</div>						
-				</div>
-
-			</div>
 
 		</div>
 	</div>
@@ -355,11 +318,12 @@
 		<div class="row">
 			<div class="col-md-6">
 				<div class="copyright">
-					<p>© 2022 Archi. All rights reserved.</p>
+					<p>© 2023  CleliaMente. Powered by CleliaMente. All rights reserved.</p>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="copyright text-right">
+					<p>Designed by <a href="https://malczcodez.online/" target="_blank">ArkBright Group</a></p>
 					<p>HTML Template by <a href="https://www.templatesjungle.com/" target="_blank">TemplatesJungle</a></p>
 				</div>
 			</div>
