@@ -1162,12 +1162,23 @@ header.sticky #navbar ul.menu-list > li > a {
   }
 }
 
-.logo-img {
+.logo-img2 {
   width: 380px;
   position: absolute;
   right: 0%;
   top: -350px; }
 
+  .logo-img3 {
+    width: 380px;
+    position: absolute;
+    right: 33%;
+    top: -350px; }
+
+    .logo-img4 {
+      width: 380px;
+      position: absolute;
+      left: 50%;
+      top: -350px; }
 /* - Search Form hover Effects
 ------------------------------------------------------------- */
 #header-wrap .action-menu {
@@ -1577,6 +1588,14 @@ body.nav-active .nav__list-item:nth-child(10) {
   font-weight: 900;
   color: #fff;
   text-transform: uppercase;
+
+.banner-record {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 4.5em;
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+}
 
 .direction {
   color: #07051a;
