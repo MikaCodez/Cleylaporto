@@ -1738,19 +1738,23 @@ body.nav-active .nav__list-item:nth-child(10) {
 --------------------------------------------------------------*/
 .lightbox-item {
   position: relative;
-  width: relative; /* Adjust to match your image dimensions */
 }
 .hover-image {
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0;
-  width: 360px; /* Adjust to your desired width */
+  width: 60%; /* Adjust to your desired width */
   height: auto;
   transition: opacity 0.5s ease;
 }
 .lightbox-item:hover .hover-image {
   opacity: 8;
+  width: 30%;
+}
+.lightbox-item img {
+  width: 150%;
+  height: auto;
 }
 
 /*----- Subscribe Section
@@ -2233,6 +2237,8 @@ footer#footer {
 }
 .portfolio-tabs .tab-content .grid {
   flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
 }
 .portfolio-tabs [data-tab-content] {
   opacity: 0;
