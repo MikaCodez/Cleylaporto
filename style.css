@@ -129,7 +129,7 @@ html {
   box-sizing: border-box;
 }
 body {
-  font-family: var(--body-font);
+  font-family: 'Quicksand', sans-serif;
   font-size: 16px;
   line-height: 1.8;
   color: var(--body-text-color);
@@ -849,6 +849,12 @@ fieldset[disabled] a.btn {
     font-size: 3.8em;
     line-height: 1;
     font-weight: 900;
+}
+.section-title2 {
+  font-size: 3.8em;
+  line-height: 1;
+  font-weight: 900;
+  text-align: right;
 }
 .section-header .title span {
     font-size: 14px;
@@ -1589,10 +1595,13 @@ body.nav-active .nav__list-item:nth-child(10) {
   color: #fff;
   text-transform: uppercase;
 
-
-.direction {
-  color: #07051a;
 }
+.main-slider .banner-content h2.banner-title2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5em;
+  font-weight: 900;
+  color: #000;
+  text-transform: uppercase;
 
 }
 #intro .button-container {
@@ -2391,6 +2400,10 @@ footer#footer {
 ------------------------------------------*/
 .comment-respond .comment-form {
   display: flex;
+}
+
+a p {
+  text-decoration: none; /* Remove underline for all <p> elements within <a> tags */
 }
 
 /*====================================================================*/
