@@ -1766,6 +1766,11 @@ body.nav-active .nav__list-item:nth-child(10) {
   height: auto;
 }
 
+.indexport {
+  text-decoration: none; /* Remove underline for all <p> elements within <a> tags */
+  font-size: 1.5em;
+}
+
 /*----- Subscribe Section
 --------------------------------------------------------------*/
 #subscribe figure.subscribe-image {
@@ -1872,9 +1877,9 @@ footer#footer {
 
 /* Footer bottom */
 #footer-bottom {
-  border-top: 1px solid #efefef;
-  padding-top: 30px;
-  margin-top: 80px;
+
+  padding-top: 0px;
+  margin-top: 0px;
 }
 #footer-bottom a {
   text-decoration: none;
