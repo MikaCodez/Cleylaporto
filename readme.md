@@ -1,8 +1,9 @@
 # CLELIAMENTE Portfolio Website
 CleliaMente design studio is a portfolio to showcase the work of Designer Clelia Giannuoli.
 
+![CleliaMente-Design-Portfolio](https://github.com/MikaCodez/Cleylaporto/assets/65243328/c2fce103-a6d8-4911-8cc9-0c2c34ff55e2)
 
-[insert image here]
+
 
 
 ## UX
@@ -41,7 +42,8 @@ Wireframes were provided by templates via template jungle. Based on the existing
 
 ### Colours
 
-(Colours for Cleliamente)[chrome-extension://nlipoenfbbikpbjkfpfillcgkoblgpmj/]
+(Colours for Cleliamente)![mente color pallete](https://github.com/MikaCodez/Cleylaporto/assets/65243328/e9de0b20-2690-4754-a0a2-9bfb13d862db)
+
 
 • #84413F Amaranth Purple for the colour of the lips that brighten the page from the Hero image.
 
@@ -70,30 +72,39 @@ Wireframes were provided by templates via template jungle. Based on the existing
 
 
 ## Features
-Home Page
+### Home Page
 
 The home page has an attractive layout to keep the user engaged and excited to get into contact with the designer while getting to learn a bit about them. The page has a Navigation bar that links to other sections of the site and buttons on the page that link straight to contacting. 
 
-![ghit homepage 1](https://user-images.githubusercontent.com/65243328/173861087-271f5dea-b433-496e-af98-14ff760ebd47.JPG)
-![ghit homepage 2](https://user-images.githubusercontent.com/65243328/173861110-80353367-fc31-4db5-a7bb-75092602b769.JPG)
+![home page 1](https://github.com/MikaCodez/Cleylaporto/assets/65243328/b301b96b-6a40-4f2f-afd3-35fbc49ca53a)
 
-Portfolio Page
+![home page 2](https://github.com/MikaCodez/Cleylaporto/assets/65243328/0a4c6ac3-609a-436a-bb9a-4a102b06f9dc)
+
+![home page 3](https://github.com/MikaCodez/Cleylaporto/assets/65243328/0bac0749-5b68-4274-b936-ac6f636b283a)
+
+
+
+### Portfolio Page
 
 Portfolio Page has an eye-catching layout to keep the user engaged and intrigied to look at the various projects available to be viewed in the gallery section of the individual projects.
 
 
-![ghit menu page](https://user-images.githubusercontent.com/65243328/173861128-5b934c14-537e-46d2-9702-c3a8d0fead54.JPG)
-![ghit menu page 2](https://user-images.githubusercontent.com/65243328/173861118-ec841d7e-45ed-4255-9323-93df870a2980.JPG)
+![Portfolio page](https://github.com/MikaCodez/Cleylaporto/assets/65243328/e799a35c-0902-4eb3-83d2-35fd780c84e2)
 
-About Page
+
+### About Page
 
 The About page will consist of the bulk story element of the design studio and their back story.
 
+![About page](https://github.com/MikaCodez/Cleylaporto/assets/65243328/afce8fc0-2984-4b58-a477-b99f204aec9f)
+
+
+
+### Contact Page
 The Contact page also has a Google maps location of the Design studio.
 
-![ghit booking page 1](https://user-images.githubusercontent.com/65243328/173861149-75f4f125-76f1-4f06-92e5-1d80bb7cb37c.JPG)
-![ghit booking page 2](https://user-images.githubusercontent.com/65243328/173861157-cde02af1-7dc9-43c1-8395-16844474867a.JPG)
-![ghit booking page 3](https://user-images.githubusercontent.com/65243328/173861164-4330d63d-68f4-4a9f-9cb8-f80c16dc265d.JPG)
+![Contact page](https://github.com/MikaCodez/Cleylaporto/assets/65243328/ed8b0259-a75b-4ffb-ab55-8d1574cbfe14)
+
 
 
 ## Deployment
