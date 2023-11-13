@@ -1601,7 +1601,7 @@ body.nav-active .nav__list-item:nth-child(10) {
   font-size: 2.5em;
   font-weight: 900;
   color: #000;
-  text-transform: uppercase;
+  text-transform: none;
 
 }
 #intro .button-container {
@@ -1844,7 +1844,6 @@ footer#footer {
   display: flex;
 }
 .footer-menu .menu-item a {
-  text-transform: capitalize;
   position: relative;
   transition: 0.3s ease-out;
   color: var(--body-text-color);
