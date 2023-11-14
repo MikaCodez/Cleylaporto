@@ -2121,6 +2121,10 @@ footer#footer {
   padding: 88px 83px;
 }
 
+.quotar {
+  text-transform: none;
+}
+
 @media only screen and (max-width: 1170px) {
     #contact .left-content {
       margin-right: 60px;
